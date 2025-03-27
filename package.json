@@ -1,0 +1,27 @@
+{
+  "name": "readme.interativo",
+  "version": "1.0.0",
+  "description": "Meu portfólio interativo, com projetos clicáveis e sendo direcionado para uma página com todos os projetos do repositório.",
+  "main": "marked.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RogerioMatos75/readme.interativo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RogerioMatos75/readme.interativo/issues"
+  },
+  "homepage": "https://github.com/RogerioMatos75/readme.interativo#readme",
+  "dependencies": {
+    "marked": "^15.0.7"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
